@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body{
+            background-image: url("access/pinkbackground.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-house"></i></a></li>
+            <li><a href="playlist.html"><i class="fas fa-music"></i></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Featured Playlist</h1>
+    </header>
+    <main>
+        <div class="featured-content">
+            <div class="featured-image">
+                <img id="featured-cover" src="" alt="Playlist Cover">
+            </div>
+            <div class="featured-details">
+                <h2 id="featured-title">Playlist Title</h2>
+                <ul id="featured-songs"></ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Music Playlist Explorer</p>
+    </footer>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
